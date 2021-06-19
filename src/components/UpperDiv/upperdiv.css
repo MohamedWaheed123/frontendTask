@@ -1,0 +1,63 @@
+.upperDiv{
+
+
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        
+        width: 100%;
+        height: 8%;
+        background-color:#06335D;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(to left,rgba(7,27,82,1)0%,rgb(0, 126, 126)100%);
+        
+      
+}
+.whatsappimg{
+    margin-left: 7%;
+    top: 0;
+    left: 0;
+    width: 50;
+    height: 50px;
+
+}
+.title{
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 190px;
+
+}
+.navigationBtns{
+    background-color: #00A357;
+    width:80px; 
+    height:40px; 
+    border: 0;
+    margin: 10px;
+   
+   
+    border-radius: 10%;
+    border:none;
+    color: white;
+  
+}
+
+@font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('../../containers/SEGA.woff') format('woff');
+    }
+
+    .shopName{
+        font-family: 'SEGA LOGO FONT';
+        font-weight: 100;
+        color: white;
+        background: rgb(0, 126, 126);
+        border: none;
+        width: 250px;
+        height:50px;
+        font-size : 32px;
+    }
